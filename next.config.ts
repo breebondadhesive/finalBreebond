@@ -1,8 +1,8 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: 'export',
+  output: 'standalone',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -18,8 +18,6 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     qualities: [50, 75, 80, 90, 100],
     minimumCacheTTL: 86400, // Cache for 24 hours
-    loader: 'default',
-    unoptimized: true,
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",

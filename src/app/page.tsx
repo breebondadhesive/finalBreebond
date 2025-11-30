@@ -56,7 +56,7 @@ export default function Home() {
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto mb-8 sm:mb-12 px-4">
               Your trusted partner in adhesive solutions for tiles. Quality that bonds beyond expectation.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center px-4">
               <motion.a
                 href="/products"
@@ -98,19 +98,19 @@ export default function Home() {
           {/* Featured Products Grid - Only 2 Products */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 mb-12 sm:mb-16">
             {[
-              { 
-                name: 'TYPE-2 101', 
+              {
+                name: 'TYPE-3 101',
                 subtitle: 'C2TE Standard',
                 desc: 'Polymer modified cement-based tile adhesive for standard applications. Ideal for fixing ceramic tiles on walls and floors.',
                 image: '/images/gallery/C2TE.png',
-                slug: 'type-2-101'
+                slug: 'type-3-101'
               },
-              { 
-                name: 'TYPE-3 S1-Plus', 
+              {
+                name: 'TYPE-4 S1-Plus',
                 subtitle: 'C2TE-S1-Plus Premium',
                 desc: 'Superior bond strength with extended open time. Designed for professional applications requiring maximum performance.',
                 image: '/images/gallery/C2TE - S1- Plus.png',
-                slug: 'type-3-s1-plus'
+                slug: 'type-4-s1-plus'
               },
             ].map((product, idx) => (
               <motion.a
@@ -126,8 +126,8 @@ export default function Home() {
                   {/* Image Section - 40% */}
                   <div className="md:col-span-2">
                     <div className="relative h-full max-h-[400px] min-h-[250px] sm:min-h-[300px] bg-white p-4 sm:p-6 flex items-center justify-center overflow-hidden border border-gray-200 group-hover:border-gray-300 transition-all duration-500">
-                      <Image 
-                        src={product.image} 
+                      <Image
+                        src={product.image}
                         alt={product.name}
                         width={300}
                         height={400}
@@ -149,7 +149,7 @@ export default function Home() {
                       </motion.div>
                     </div>
                   </div>
-                  
+
                   {/* Text Content - 60% */}
                   <div className="md:col-span-3 flex flex-col justify-center py-4 sm:py-6">
                     <p className="text-xs uppercase tracking-widest text-gray-500 mb-2 sm:mb-3">
@@ -161,7 +161,7 @@ export default function Home() {
                     <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
                       {product.desc}
                     </p>
-                    
+
                     {/* Specs Badges */}
                     <div className="flex flex-wrap gap-3 mb-6">
                       <span className="px-4 py-2 bg-gray-100 text-sm font-medium text-gray-700">
@@ -174,7 +174,7 @@ export default function Home() {
                         IS15477-2019
                       </span>
                     </div>
-                    
+
                     {/* Learn More Text */}
                     <div className="inline-flex items-center gap-2 text-sm uppercase tracking-wider text-black font-medium border-b-2 border-black pb-1 w-fit group-hover:opacity-60 transition-opacity">
                       <span>Learn More</span>
@@ -242,9 +242,9 @@ export default function Home() {
               Building<br />Better<br />Together
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed mb-6 sm:mb-8">
-              BREEBOND is your trusted partner in adhesive solutions for tiles. 
-              We specialize in creating high-quality, reliable adhesives that ensure 
-              the perfect bond for your tiles, whether for residential, commercial, 
+              BREEBOND is your trusted partner in adhesive solutions for tiles.
+              We specialize in creating high-quality, reliable adhesives that ensure
+              the perfect bond for your tiles, whether for residential, commercial,
               or industrial applications.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">

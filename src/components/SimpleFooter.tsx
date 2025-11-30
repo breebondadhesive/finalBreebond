@@ -7,7 +7,7 @@ export default function SimpleFooter() {
     <footer className="relative bg-black text-white py-16 overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 opacity-10">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: 'url(/images/footer.png)',
@@ -55,16 +55,16 @@ export default function SimpleFooter() {
             <h4 className="text-xs sm:text-sm uppercase tracking-wider text-gray-500 mb-3 sm:mb-4 font-medium">Products</h4>
             <ul className="space-y-2 sm:space-y-3">
               <li>
-                <a href="/products/type-2-101" className="text-gray-400 hover:text-white transition-colors">TYPE-2 101</a>
+                <a href="/products/type-3-101" className="text-gray-400 hover:text-white transition-colors">TYPE-3 101</a>
               </li>
               <li>
-                <a href="/products/type-2-s1" className="text-gray-400 hover:text-white transition-colors">TYPE-2 S1</a>
+                <a href="/products/type-4-s1" className="text-gray-400 hover:text-white transition-colors">TYPE-4 S1</a>
               </li>
               <li>
-                <a href="/products/type-3-s1-plus" className="text-gray-400 hover:text-white transition-colors">TYPE-3 S1-Plus</a>
+                <a href="/products/type-4-s1-plus" className="text-gray-400 hover:text-white transition-colors">TYPE-4 S1-Plus</a>
               </li>
               <li>
-                <a href="/products/type-4-s2-flex" className="text-gray-400 hover:text-white transition-colors">TYPE-4 S2-Flex</a>
+                <a href="/products/type-5-s2-flex" className="text-gray-400 hover:text-white transition-colors">TYPE-5 S2-Flex</a>
               </li>
             </ul>
           </div>

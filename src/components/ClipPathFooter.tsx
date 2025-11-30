@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function ClipPathFooter() {
   const containerRef = useRef<HTMLDivElement>(null);
-  
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start end", "end end"]
@@ -42,10 +42,10 @@ export default function ClipPathFooter() {
           <div className="text-center mb-16">
             <h2 className="text-8xl font-bold mb-6 tracking-tight">BREEBOND</h2>
             <p className="text-2xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-              Your trusted partner in adhesive solutions for tiles. 
+              Your trusted partner in adhesive solutions for tiles.
               Quality that bonds beyond expectation.
             </p>
-            
+
             <div className="flex flex-wrap justify-center gap-12 mb-16 text-left">
               <div>
                 <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-3">Address</h3>
@@ -65,7 +65,7 @@ export default function ClipPathFooter() {
             </div>
 
             <div className="flex flex-col sm:flex-row justify-center gap-6 mb-16">
-              <Link href="/products/type-2-101">
+              <Link href="/products">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -118,16 +118,16 @@ export default function ClipPathFooter() {
                 <h4 className="text-sm uppercase tracking-wider text-gray-500 mb-4 font-medium">Products</h4>
                 <ul className="space-y-3">
                   <li>
-                    <a href="/products/type-2-101" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-2 101</a>
+                    <a href="/products/type-3-101" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-3 101</a>
                   </li>
                   <li>
-                    <a href="/products/type-2-s1" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-2 S1</a>
+                    <a href="/products/type-4-s1" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-4 S1</a>
                   </li>
                   <li>
-                    <a href="/products/type-3-s1-plus" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-3 S1-Plus</a>
+                    <a href="/products/type-4-s1-plus" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-4 S1-Plus</a>
                   </li>
                   <li>
-                    <a href="/products/type-4-s2-flex" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-4 S2-Flex</a>
+                    <a href="/products/type-5-s2-flex" className="text-gray-400 hover:text-white transition-colors text-sm">TYPE-5 S2-Flex</a>
                   </li>
                 </ul>
               </div>

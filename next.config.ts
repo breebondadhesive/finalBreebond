@@ -2,7 +2,7 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: 'standalone',
+  output: 'export',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -19,6 +19,7 @@ const nextConfig: NextConfig = {
     qualities: [50, 75, 80, 90, 100],
     minimumCacheTTL: 86400, // Cache for 24 hours
     loader: 'default',
+    unoptimized: true,
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",

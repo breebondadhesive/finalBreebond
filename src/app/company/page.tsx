@@ -39,7 +39,7 @@ export default function CompanyPage() {
           </video>
         </div>
 
-        
+
 
         {/* Animated Background */}
         <div className="absolute inset-0 opacity-10">
@@ -243,7 +243,7 @@ export default function CompanyPage() {
             <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
               Whether you're a contractor, builder, or homeowner, we're here to support your projects with premium adhesive solutions.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Link href="/contact">
                 <motion.button
@@ -254,7 +254,7 @@ export default function CompanyPage() {
                   Contact Us
                 </motion.button>
               </Link>
-              <Link href="/products/type-2-101">
+              <Link href="/products">
                 <motion.button
                   className="px-12 py-4 border-2 border-white text-white text-sm uppercase tracking-wider font-medium hover:bg-white/10 transition-colors"
                   whileHover={{ scale: 1.05 }}

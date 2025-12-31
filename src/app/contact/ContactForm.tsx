@@ -54,7 +54,7 @@ Best regards,
 ${formData.name}`;
     
     // Create mailto link
-    const mailtoLink = `mailto:breebondllp@gmail.com?subject=${encodeURIComponent('Contact Form: ' + formData.subject)}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:breebond.adhesive@gmail.com?subject=${encodeURIComponent('Contact Form: ' + formData.subject)}&body=${encodeURIComponent(emailBody)}`;
     
     // Open email client
     window.location.href = mailtoLink;
@@ -122,8 +122,8 @@ ${formData.name}`;
             </div>
             <div>
               <h3 className="text-xl font-medium text-black mb-2">Email</h3>
-              <a href="mailto:breebondllp@gmail.com" className="text-gray-600 hover:text-black transition-colors block">
-                breebondllp@gmail.com
+              <a href="mailto:breebond.adhesive@gmail.com" className="text-gray-600 hover:text-black transition-colors block">
+                breebond.adhesive@gmail.com
               </a>
             </div>
           </motion.div>

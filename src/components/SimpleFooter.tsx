@@ -76,13 +76,13 @@ export default function SimpleFooter() {
               <p>OP No. 36, TPS-52, Block No 29</p>
               <p>Surat, Gujarat - 395004</p>
               <p className="pt-2">
-                <a href="mailto:breebondllp@gmail.com" className="hover:text-white transition-colors">
-                  breebondllp@gmail.com
+                <a href="mailto:breebond.adhesive@gmail.com" className="hover:text-white transition-colors">
+                  breebond.adhesive@gmail.com
                 </a>
               </p>
               <p>
-                <a href="https://www.breebond.in" className="hover:text-white transition-colors">
-                  www.breebond.in
+                <a href="https://breebond.in" className="hover:text-white transition-colors">
+                  hhtps://breebond.in
                 </a>
               </p>
               <p className="pt-2">
